@@ -37,7 +37,7 @@ const SubscriptionForm = () => {
     // ...
   };
   const handleSubscribe = () => {
-    fetch('http://localhost:5000/subscribe', {
+    fetch('http://localhost:5001/subscribe', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
