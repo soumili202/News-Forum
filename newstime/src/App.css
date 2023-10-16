@@ -1,0 +1,165 @@
+/* Header styles */
+.App{
+  background: url('https://wallpapers.com/images/high/orange-and-blue-news-background-x7payhq37ymlnyu5.webp') no-repeat center center fixed;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  align-items: center;
+  
+  justify-content:space-between;
+  
+  padding: 50px;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #070606;
+}
+
+.header .logo {
+  width:200px;
+  height: auto;
+  margin-right: 300px; /* Adjust margin as needed for spacing between logo and text */
+  border-radius: 50%;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+.subs {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 1000px;
+}
+
+
+
+
+/* Navigation styles */
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin to separate from content */
+}
+
+.search-form {
+  display: flex;
+  margin-right: 650px; /* Add margin between search and select */
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.select-option {
+  padding: 10px;
+  width: 200px; /* Adjust the width as needed */
+  color: black;
+  background-color:#3498db;
+}
+
+/* NewsCard styles */
+.news-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.news-card h3 {
+  margin: 10px 0 0 0;
+  font-size: 1.1em;
+}
+
+.news-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.news-card a {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.news-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer form {
+  display: flex;
+  justify-content: center;
+}
+
+.footer input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.footer button {
+  padding: 10px 20px;
+}
+
+.contact-info, .address {
+  margin-top: 20px;
+  
+}
+
+.contact-info h3, .address h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info p, .address p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+/* Flex box for news-cards class */
+.news-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
