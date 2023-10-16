@@ -12,8 +12,8 @@ const Navigation = () => {
       <select className="select-option">
         <option value="all">All</option>
         <option value="local">Local</option>
-        <option value="national">National</option>
-        <option value="international">International</option>
+        <option value="sports">Sportsl</option>
+        <option value="technology">Technology</option>
       </select>
     </div>
   );
