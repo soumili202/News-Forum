@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 
 const SubscriptionForm = () => {
   const [email, setEmail] = useState('');
+  
 
   const handleChange = (event) => {
     setEmail(event.target.value);
@@ -11,6 +12,7 @@ const SubscriptionForm = () => {
   const sendEmail = () => {
     const templateParams = {
       user_email: email,
+
     };
 
     // Replace with your actual Service ID and Template ID from Email.js
@@ -25,6 +27,7 @@ const SubscriptionForm = () => {
       .catch((error) => {
         console.error('Error sending email:', error);
       });
+      
   };
 
   const handleSubmit = (event) => {
