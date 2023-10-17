@@ -36,8 +36,7 @@ const SubscriptionForm = () => {
     // Call sendEmail function to send the email
     sendEmail();
 
-    // Additional logic (e.g., storing email in the backend)
-    // ...
+   
   };
   const handleSubscribe = () => {
     fetch('http://localhost:5001/subscribe', {
